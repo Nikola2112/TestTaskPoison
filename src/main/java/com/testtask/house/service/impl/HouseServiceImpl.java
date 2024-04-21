@@ -19,7 +19,6 @@ public class HouseServiceImpl implements HouseService {
     private final UserRepository userRepository;
 
 
-
     public House createHouse(House house, Long ownerId) {
         User owner = userRepository.findById(ownerId).orElse(null);
         if (owner != null) {

@@ -1,0 +1,12 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="db/changelog/changelog-001-create-users.xml"/>
+    <include file="db/changelog/changelog-002-create-houses.xml"/>
+    <include file="db/changelog/changelog-003-create-house-user.xml"/>
+    <include file="db/changelog/changelog-004-add-foreign-keys.xml"/>
+    <include file="db/changelog/changelog-005-seed-data.xml"/>
+
+</databaseChangeLog>
