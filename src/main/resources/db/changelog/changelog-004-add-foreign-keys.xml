@@ -1,0 +1,24 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="4" author="nick">
+        <!--
+        <addForeignKeyConstraint
+                constraintName="fk_house_owner"
+                baseTableName="house"
+                baseColumnNames="owner_id"
+                referencedTableName="users"
+                referencedColumnNames="id"/>
+
+        <addForeignKeyConstraint
+                constraintName="fk_house_user_house"
+                baseTableName="house_user"
+                baseColumnNames="house_id"
+                referencedTableName="house"
+                referencedColumnNames="id"/>
+         -->
+    </changeSet>
+
+</databaseChangeLog>
